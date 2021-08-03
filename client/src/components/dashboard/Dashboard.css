@@ -1,0 +1,46 @@
+/*.container{
+    background: rgba( 73, 5, 137, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}*/
+/* .dashboard{
+    background: rgba( 155, 155, 155, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+} */
+.bigbox{
+    /* width: 100%;
+    background: url('https://media.istockphoto.com/vectors/futuristic-sci-fi-modern-neon-pink-and-blue-gradient-glowing-arrows-vector-id1269581447?b=1&k=6&m=1269581447&s=170667a&w=0&h=2YjnrsPiTq-j86RlRCtGAuLb9GcOHAkV0R6yMlQmBw8=');
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background-size:cover;   
+    background-position:center;
+    margin-bottom:-50px; */
+    position: relative;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 60px 0;
+    background: url('https://images.unsplash.com/photo-1508614999368-9260051292e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+    /* url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80'); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background-size:cover;   
+    background-position:center;
+    margin-bottom:-50px;
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba(253, 91, 91, 0.18);
+    height:100vh;
+    margin-top:-10px;
+    margin-bottom:-50px;
+}
+.dashboard{
+    width:70%;
+    text-align: center;
+    margin-left: 200px;
+}

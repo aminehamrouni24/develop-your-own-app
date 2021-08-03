@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100&display=swap');
+
+.body3 h1 h3 {
+  padding:10px;
+  color :darkgray ;
+}
+.body3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 60px 0;
+    background: url('../../img/register001.png');
+    /* url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80'); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background-size:cover;   
+    background-position:center;
+    margin-bottom:-50px;
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba(253, 91, 91, 0.18);
+    height:100vh;
+    margin-top:-10px;
+    margin-bottom:-50px;
+  }
+
+  .body3 form {
+    margin: 0 auto;
+    padding:10px;
+    color:rgb(255, 254, 254);
+    max-width: 600px;
+    text-align: center;
+    box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background:rgba(255,255,255,0.1);
+    overflow:hidden;
+
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+  }
+
+  
+  .body3 input{
+    width: 80%;
+    margin-left: 60px;
+  }
+  

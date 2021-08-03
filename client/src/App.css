@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+img {
+  width:100%}
+  .landing{
+  position : relative;
+  background: url('https://i2.wp.com/hdwallpapers.in/download/colorful_spectrum_4k-1920x1080.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  margin-top:-10px;
+  margin-bottom:-50px;
+  }
+  .landing-inner{
+  padding-top:80px;
+  }
+  /* .dark-overlay{
+  background-color:rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  } */
+  .card-form{
+  opacity:0.9;
+  }
+  .last-profiles-img{
+  width:40px;
+  height:40px
+  }
+  /* .form-control::placeholder{
+  color:#bbb !important;
+  } */

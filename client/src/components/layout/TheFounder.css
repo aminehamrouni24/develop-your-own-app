@@ -1,0 +1,75 @@
+.thefounder{
+    background-color: black;
+}
+.containner{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+
+}
+.containner .card{
+    position:relative;
+    width: 280px;
+    height: 400px;
+    margin:30px;
+    box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background:rgba(255,255,255,0.1);
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+
+}
+.containner .card .content{
+    padding:20px;
+    text-align:center;
+    transform:translate(100px);
+    opacity:0;
+    transition:0.5s;
+}
+.containner .card:hover .content{
+
+    transform:translate(0px);
+    opacity:1;
+    
+}
+.containner .card .content h1{
+    position:absolute;
+    top:-80px;
+    right:30px;
+    font-size:8em;
+    color:rgba(255, 255, 255, 0.05);
+    pointer-events:none;
+}
+.containner .card .content h3{
+
+    font-size:1.8em;
+    color:#fff;
+    z-index:1;
+}
+.containner .card .content p{
+    font-size:1em;
+    color:rgb(248, 45, 157);
+    font-weight:300;
+}
+.containner .card .content a{
+    position:relative;
+    display: inline-block;
+    padding:8px 20px;
+    margin-top:15px;
+    background:#fff;
+    color:#000;
+    border-radius:20px;
+    text-decoration:none;
+    font-weight:500;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
