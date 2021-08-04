@@ -7,3 +7,9 @@ Tunisian Developers Community
 
 #ADMIN BRO for the admin utilities
 
+#config folder : 
+make sure to add config folder containing :
+- DB_URI : wich stands for the database
+- the secret key
+- the file containing passport js authentification
+
